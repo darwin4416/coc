@@ -1,8 +1,10 @@
 {
   "name": "coc",
   "version": "1.0.0",
-  "engines":{"node":"6.10.2",
-         "npm":"5.3.0"},
+  "engines": {
+    "node": "6.10.2",
+    "npm": "5.3.0"
+  },
   "description": "\"Coach on Couch\"",
   "main": "app.js",
   "scripts": {
@@ -15,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "express": "4.15.5",
     "guid": "0.0.12",
     "mustache": "^2.3.0",
     "querystring": "^0.2.0",
