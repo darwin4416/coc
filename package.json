@@ -16,9 +16,13 @@
   "author": "Darvin",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "express": "4.15.5",
+    "express-handlebars": "^3.0.0",
     "guid": "0.0.12",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.0",
     "mustache": "^2.3.0",
     "querystring": "^0.2.0",
     "request": "^2.82.0"

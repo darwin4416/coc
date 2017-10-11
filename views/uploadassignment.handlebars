@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-offset-3 col-sm-4">
+            <h4>Welcome </h4>
+            <form action='/handle-assignments' method="post">
+                <label for="username">Username:</label>
+                 <input type="text" name="username"><br>
+                <label for="assignment">date:</label>
+                 <input type="date" name="date"><br>
+                 <label for="assignment">Subject:</label>
+                <select name="subjects">
+                   <option value="Eng">English</option>
+                   <option value="Math">Math</option>
+                   <option value="Physics">Physics</option>
+                   <option value="Bio">Bio</option>
+                </select>
+                 <select name="typeofService">
+                   <option value="Assign">Assignment</option>
+                   <option value="homework">Homework</option>
+                   
+                </select>
+                <label for="assignment">Submit Assignment:</label>
+                <input type="file" placeholder="Submit Assignment" name="assignment"><br>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
